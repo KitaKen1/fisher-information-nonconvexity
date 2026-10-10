@@ -25,7 +25,7 @@ For a positive smooth function $p$, write
 
 $$
 H_p=-\nabla^2\log p,\qquad
-K_p=|\nabla H_p|_F^2+2\operatorname{tr}(H_p^3).
+K_p=|\nabla H_p|_F^2+2\mathrm{tr}(H_p^3).
 $$
 
 Choose the radial logarithmic profile
@@ -67,7 +67,7 @@ $$
 1\leq\langle q\rangle<1+10^{-30}.
 $$
 
-The functions $q$, $qK_q$, $q\operatorname{tr}(H_q^2)$ and $q\operatorname{tr}(H_q)$ each have absolute value below $10^{28}$. These bounds control the subsequent Gaussian corrections.
+The functions $q$, $qK_q$, $q\mathrm{tr}(H_q^2)$ and $q\mathrm{tr}(H_q)$ each have absolute value below $10^{28}$. These bounds control the subsequent Gaussian corrections.
 
 ### 4. Obtain a fixed probability density
 
