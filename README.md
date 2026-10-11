@@ -31,7 +31,7 @@ disproves the variant statement, whose conditions are weaker (see the
 
 1. **Lean proof of a variant statement.**
 
-**Try it in Lean4Web:** [open the complete proof in one file](https://live.lean-lang.org/) (Lean **v4.35.0-rc3**).
+**Try it in Lean4Web:** [open the complete proof in one file](https://live.lean-lang.org/#url=https%3A%2F%2Fraw.githubusercontent.com%2FKitaKen1%2Ffisher-information-nonconvexity%2Ffe6ade9846c53e5cb0dcbc00eca359c83f8d0f55%2Flean4web%2FFisher41Lean4Web.lean) (Lean **v4.35.0-rc3**).
 
 ## Formal Conjectures target
 
