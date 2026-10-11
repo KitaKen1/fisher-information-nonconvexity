@@ -1,0 +1,14 @@
+name = "fisher41"
+version = "0.1.0"
+defaultTargets = ["Fisher41"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "TauCeti"
+git = "https://github.com/TauCetiProject/TauCeti"
+rev = "e0c8f0ae12afc2358eb2e0a0798ab94303bd213d"
+
+[[lean_lib]]
+name = "Fisher41"

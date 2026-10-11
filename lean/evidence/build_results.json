@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-11T01:34:17.636768+00:00",
+  "exit_codes": {
+    "main_proof": 0,
+    "main_axioms": 0,
+    "lean4web": 0,
+    "fc_statement": 0
+  },
+  "elapsed_seconds": 741.84,
+  "timing_note": "Includes dependency loading; modules already built are replayed.",
+  "lean_version": "leanprover/lean4:v4.35.0-rc3",
+  "lean4web_version": "leanprover/lean4:v4.35.0-rc3",
+  "lean4web_checked_with": "lake env lean in lean/ (same Lean and Mathlib revisions)",
+  "fc_statement_checked_with": "Formal Conjectures 7fa51437bb6717db269e4f5449b2845085c7f545",
+  "axiom_audit_passed": true,
+  "axioms": {
+    "main_axioms": {
+      "Fisher41.paperTheorem1": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "Fisher41.pdfMain": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "Fisher41.fisherSecondDerivNeg": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "Fisher41.fisherNonconvex": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "Arxiv.«2605.18081».fisherInformationConvexity": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "Arxiv.«2605.18081».fisherInformationConvexity.variants.smooth": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    "lean4web": {
+      "Fisher41.paperTheorem1": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "Arxiv.«2605.18081».fisherInformationConvexity": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "Arxiv.«2605.18081».fisherInformationConvexity.variants.smooth": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  },
+  "definitions_and_statements_match": true,
+  "no_holes_or_custom_axioms": true,
+  "source_sha256": {
+    "lean/Fisher41.lean": "457dc3214298dc750e42cc635246e42bdb985d27510597b79861f422a5e2aca5",
+    "lean/Fisher41/Defs.lean": "6d3cb08d59676107e70e9a93e89cf605ff0352bbfdbfc88df41e1484392679fc",
+    "lean/Fisher41/Density.lean": "7ecc4685346e74cbf46fa5d9e55d89e6912bc4476bef4f49a0c6a0839eb175c4",
+    "lean/Fisher41/FC/Admissible.lean": "31bad5b74d0368c9c9e29a54ca64b68bc766d7137191cb6d8c556002f7f5dedf",
+    "lean/Fisher41/FC/Bridge.lean": "588eaafe92ad65343ff87d6519983ed0eef6074707113f62122d5140b4e16920",
+    "lean/Fisher41/FC/Main.lean": "2db8fd8cdc253c9c104b4127b0f5978fc6400abe077cfa7eec58e59b9ca095c8",
+    "lean/Fisher41/FC/Statement.lean": "71dc41b36b176017454d4f4fe882fc973205a14e8a9bd4043dcd95eab2cb6460",
+    "lean/Fisher41/Fixed/DBound.lean": "ff000788d7474bfcbb590a5811a3c84b67996ca03074337e9bb73a0ed03a7c82",
+    "lean/Fisher41/Heat/Commute.lean": "c206e7b435e5f757d1172a4093bd919a5cefeb341ad1d4caf872227afcc6fd88",
+    "lean/Fisher41/Heat/Continuity.lean": "8ac680de8114a90d63559befc56c71106ed2a1cb90f3fb8f26f52a0a1de59ccd",
+    "lean/Fisher41/Heat/DensityFlow.lean": "118bd549483d8b59fcab2e1a74447021c97fdeb3b1aa30068f096023fff4baf4",
+    "lean/Fisher41/Heat/Derivatives.lean": "135b1f06dbbe22eebd827a39dc00a10d406d02ff0b2e9f5843f234d360a99938",
+    "lean/Fisher41/Heat/Domination.lean": "cd544e91e073a7594475b7e5ce55e2f96cf98002eca6f46a200222330d865e1a",
+    "lean/Fisher41/Heat/Gaussian.lean": "90aab3d8a240c23b46ce685172a27b1ce0db4c10f2252aaa71d6ae41805e92c7",
+    "lean/Fisher41/Heat/Identities.lean": "6e4153d701cf1bbc1ef2e38f762cb806f70dc7b84da13b2ac8fa799babc585b9",
+    "lean/Fisher41/Heat/Limit.lean": "084fea1c0062e834df497bccfdd4ae6371fa17770d487a951d0e8bc9972c60bd",
+    "lean/Fisher41/Heat/PointwiseAlgebra.lean": "36940607920bee9996486038d61d7dd1b4bc58154faea420bbf48683462c9617",
+    "lean/Fisher41/Main/Assembly.lean": "b14feef340c347264fd49de511b4dcf24df4f0db0c3a08c8316e7343901e35a9",
+    "lean/Fisher41/Main/FlowHyp.lean": "ba32665f3d561720783a0318b711c07092b5e6dc0f44574be70b78e492f2db37",
+    "lean/Fisher41/Main/Paper.lean": "9de6adbc374e5b26a2af07833956439111b0dd2246d2eff3ac3d104f970467db",
+    "lean/Fisher41/Main/Theorems.lean": "2a2249af661ee2a3a1ba0888607abc0429a5300ec6bb59970225a907237a7179",
+    "lean/Fisher41/Numerics/CellCheck.lean": "eac020929da4ebbe8c366f7b4af9017040896194548e42eedf24dc908779d6fc",
+    "lean/Fisher41/Numerics/Cells/Block00.lean": "7cbee0c00ea7275e143020c7af8f92c9e8d92aaee7dee0293985f974b909b8cb",
+    "lean/Fisher41/Numerics/Cells/Block01.lean": "7b63b37ce2e7a7fa21f51b32aed4396bf498dad4f381e025a43bd619f6bdb7ca",
+    "lean/Fisher41/Numerics/Cells/Block02.lean": "945f438fd5554bb24ae2dd49026979a6b013d2fc8b491773956b74b21e9ad7b2",
+    "lean/Fisher41/Numerics/Cells/Block03.lean": "80fac9b71309c85079dc2da15eb830d313d70f553b2007921f01f8905ecdad66",
+    "lean/Fisher41/Numerics/Cells/Block04.lean": "5bbdf3b1f768814e0a7a7f67e796494ca77baf5c110938bf510d451b751c0542",
+    "lean/Fisher41/Numerics/Cells/Block05.lean": "0da5ce537c7f7ca7fd756469c3bd3d7b90c173474ef43496abe8c7497a6abe20",
+    "lean/Fisher41/Numerics/Cells/Block06.lean": "4abf89142eba431851b7688ff14cdb9246190c27dbd32b2369abd5adf648c6d4",
+    "lean/Fisher41/Numerics/Cells/Block07.lean": "650746822bcd29cc06c8842efab332dfe1fa32d240433086a16ad443ab38c850",
+    "lean/Fisher41/Numerics/Cells/Block08.lean": "b196fe6c29382b0e583dbed23764a54be64b1e227278e4a04da81342bb71e171",
+    "lean/Fisher41/Numerics/Cells/Block09.lean": "dfc3ca585c8bf9fde871c50f372ad3de24fadab00a4829c771ba3f4abf8d89ee",
+    "lean/Fisher41/Numerics/Cells/Kernel00.lean": "df11f185fde25f0fd4be3e51d1a06336e08629f79123790a13a86788d3dde003",
+    "lean/Fisher41/Numerics/Cells/Kernel01.lean": "99ea7de6bb099da0505436f2e5799b8c52af9bd2b5fcda11a2b803e5da3b6639",
+    "lean/Fisher41/Numerics/Cells/Kernel02.lean": "66955aa70d9cbd17e3a864ec9af40cbddfe49c6b770e6bf7c24d59bc7b74e291",
+    "lean/Fisher41/Numerics/Cells/Kernel03.lean": "280e26b92bb754514cf3f84c1c2636c731b068337d728fbbd14f2a814e2637fd",
+    "lean/Fisher41/Numerics/Cells/Kernel04.lean": "6a09e111d62050bfa06c1a0f95624200e3753c9f7ece266687d1975ee7f7509c",
+    "lean/Fisher41/Numerics/Cells/Kernel05.lean": "c4bf5d9621cfc442ebb797e02325ab9dad6a88bfe3ccd4505b4ed1599a8d98ec",
+    "lean/Fisher41/Numerics/Cells/Kernel06.lean": "4b3da5d0db4802926904850cad07a906b4d5a2ec001a6bfb146432be5b44d1f7",
+    "lean/Fisher41/Numerics/Cells/Kernel07.lean": "096a5a50b5a3194f42fca2c019ef902ba01dc6dcdf6ef0aa88a9be7c3b44d9ed",
+    "lean/Fisher41/Numerics/Cells/Kernel08.lean": "45e06e9b585fd3c56f97e7a5e5967c90062b1044c957617fddac34eb65688af0",
+    "lean/Fisher41/Numerics/Cells/Kernel09.lean": "a5df80d922eb13dddf9720937568c0ad0d427f383dcb16f4605215eda3808f7a",
+    "lean/Fisher41/Numerics/Certificate.lean": "10b393ca54b94befc5bf1f1c99e791cb5f146cce76dce073b0c172706de69f78",
+    "lean/Fisher41/Numerics/Compute.lean": "940af25ae84a642fbdf441b96268de29400c5c16baa56db4b665961e3aac4597",
+    "lean/Fisher41/Numerics/ExpSound.lean": "af39d2f986532476e0ee2627e7060908b1567436293779c4bdd13621baf0e6bf",
+    "lean/Fisher41/Numerics/IVSound.lean": "9ccddf3ad3c66708c8db4de5f07213ce068a8a194c5a31614f42593a9a5cce7c",
+    "lean/Fisher41/Numerics/JetSound.lean": "45967e701e4aa4006fdce28dde90f28a17a667ff2353baa1f0af259e6c98dfcd",
+    "lean/Fisher41/Numerics/MainBound.lean": "5d3d6cc749eb11f530fa2a201985ba43e14cbeb151a11e90b6343f1fa0bf0b10",
+    "lean/Fisher41/Numerics/Midpoint.lean": "e75a961b271ba6682fac0debdd78326cf27d1af1238860a1ceac8f9e695a6a81",
+    "lean/Fisher41/Statement.lean": "e08bf9bdc47e774435fe0d41320a8e5eafae311db5e900f8ec0e2636167f8e01",
+    "lean/Fisher41/Static/Averaging1D.lean": "a0a2e8b5938f566d4c08167747dceaa9e949d1ea8100971aa75929d364d892e0",
+    "lean/Fisher41/Static/AveragingND.lean": "89dfec40246dfa7070c8476da1457587e01e20a99f96b9768c05def2856d71e4",
+    "lean/Fisher41/Static/Cutoff.lean": "09e36e8d3829fe1ae986f5e0b54bcf2165e0c5ce1304cdf9f10cd97f0d97d9a5",
+    "lean/Fisher41/Static/DensityNeg.lean": "6281ef853ba91591a73893c529ac09781bb4c5fea226b604ce7a5fd170155444",
+    "lean/Fisher41/Static/Envelope.lean": "cc7dccf5d15fafb42753507f6d74f1d2e282a36a657ec3a2473c5e2fa317e714",
+    "lean/Fisher41/Static/Jcut.lean": "bd5d603b388d90bc8f573651b654c42e829a829b1f3893f6160bbd222576d2dc",
+    "lean/Fisher41/Static/Periodic.lean": "198d5db9ffcb63c7538a4b06b4d2766288d903eeb48d326b31fd7617a909d74d",
+    "lean/Fisher41/Static/Profile.lean": "8cb0b4e2d73cbb326cb9b373ad369ebecbb9b0274b1493bdbd963b4f269152c4",
+    "lean/Fisher41/Static/RadialTensor.lean": "6dc3545f0998eac2a3566e52524ca0e14dc8d201aacfc3542d9a079b76248a91",
+    "lean4web/Fisher41Lean4Web.lean": "c3184a5dbc8234d12afb88a7cac412f6ff021fa6caef981bc946150305170584",
+    "FClikelean/FisherInformationConvexity.lean": "0b836c18adeba5c7fd6e7ef811c3004a2b8bb9a32f1454c4b970b4c1a66e8da2"
+  }
+}

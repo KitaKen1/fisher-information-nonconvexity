@@ -1,0 +1,14 @@
+name = "fisher41_lean4web"
+version = "0.1.0"
+defaultTargets = ["Fisher41Lean4Web"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "1b5006ca00888f8aaafa8939b28787d423e44bba"
+
+[[lean_lib]]
+name = "Fisher41Lean4Web"

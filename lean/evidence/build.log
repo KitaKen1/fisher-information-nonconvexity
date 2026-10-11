@@ -1,0 +1,130 @@
+
+main_proof: lake build Fisher41
+⚠ [2726/2815] Replayed Fisher41.Static.Cutoff
+warning: Fisher41/Static/Cutoff.lean: imports `Mathlib.Analysis.SpecialFunctions.SmoothTransition` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/Cutoff.lean: imports `Mathlib.Analysis.Calculus.IteratedDeriv.Defs` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/Cutoff.lean: imports `Mathlib.Analysis.Calculus.ContDiff.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/Cutoff.lean: imports `Mathlib.Analysis.Calculus.Deriv.Shift` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/Cutoff.lean: imports `Mathlib.Analysis.Complex.ExponentialBounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2778/3009] Replayed Fisher41.Defs
+warning: Fisher41/Defs.lean: imports `Mathlib.Analysis.InnerProductSpace.PiL2` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Defs.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Defs.lean: imports `Mathlib.Analysis.Convex.Function` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Defs.lean: imports `Mathlib.Analysis.Calculus.ContDiff.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Defs.lean: imports `Mathlib.Analysis.Calculus.FDeriv.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Defs.lean: imports `Mathlib.MeasureTheory.Integral.Bochner.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Defs.lean: imports `Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2779/3009] Replayed Fisher41.Density
+warning: Fisher41/Density.lean: imports `Mathlib.Algebra.BigOperators.Finprod` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2781/3009] Replayed Fisher41.Static.RadialTensor
+warning: Fisher41/Static/RadialTensor.lean: imports `Mathlib.Analysis.InnerProductSpace.Calculus` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/RadialTensor.lean: imports `Mathlib.Analysis.Calculus.FDeriv.Mul` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/RadialTensor.lean: imports `Mathlib.Analysis.Calculus.Deriv.Comp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/RadialTensor.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2818/3009] Replayed Fisher41.Static.Periodic
+warning: Fisher41/Static/Periodic.lean: imports `Mathlib.Analysis.Normed.Group.Bounded` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/Periodic.lean: imports `Mathlib.Analysis.SpecialFunctions.ExpDeriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/Periodic.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/Periodic.lean: imports `Mathlib.MeasureTheory.Constructions.HaarToSphere` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/Periodic.lean: imports `Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2820/3009] Replayed Fisher41.Numerics.IVSound
+warning: Fisher41/Numerics/IVSound.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Numerics/IVSound.lean: imports `Mathlib.Algebra.Order.Field.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Numerics/IVSound.lean: imports `Mathlib.Algebra.Order.Ring.Abs` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2821/3009] Replayed Fisher41.Numerics.ExpSound
+warning: Fisher41/Numerics/ExpSound.lean: imports `Mathlib.Analysis.Complex.Exponential` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Numerics/ExpSound.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2822/3009] Replayed Fisher41.Numerics.JetSound
+warning: Fisher41/Numerics/JetSound.lean: imports `Mathlib.Analysis.SpecialFunctions.ExpDeriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Numerics/JetSound.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Numerics/JetSound.lean: imports `Mathlib.Analysis.Calculus.Deriv.Inv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2823/3009] Replayed Fisher41.Numerics.Midpoint
+warning: Fisher41/Numerics/Midpoint.lean: imports `Mathlib.Analysis.Calculus.Deriv.MeanValue` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Numerics/Midpoint.lean: imports `Mathlib.Analysis.Calculus.Deriv.Pow` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Numerics/Midpoint.lean: imports `Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2825/3009] Replayed Fisher41.Numerics.Certificate
+warning: Fisher41/Numerics/Certificate.lean: imports `Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2847/3009] Replayed Fisher41.Static.Profile
+warning: Fisher41/Static/Profile.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/Profile.lean: imports `Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2878/3009] Replayed Fisher41.Static.Averaging1D
+warning: Fisher41/Static/Averaging1D.lean: imports `Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/Averaging1D.lean: imports `Mathlib.MeasureTheory.Integral.IntegralEqImproper` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/Averaging1D.lean: imports `Mathlib.MeasureTheory.Integral.IntervalIntegral.Periodic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/Averaging1D.lean: imports `Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2880/3009] Replayed Fisher41.Static.AveragingND
+warning: Fisher41/Static/AveragingND.lean: imports `Mathlib.MeasureTheory.Integral.Pi` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/AveragingND.lean: imports `Mathlib.MeasureTheory.Integral.DominatedConvergence` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2884/3009] Replayed Fisher41.Static.Envelope
+warning: Fisher41/Static/Envelope.lean: imports `Mathlib.Analysis.Calculus.ContDiff.Comp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/Envelope.lean: imports `Mathlib.Analysis.Calculus.FDeriv.CompCLM` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/Envelope.lean: imports `Mathlib.Analysis.Calculus.FDeriv.Mul` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/Envelope.lean: imports `Mathlib.Analysis.Calculus.FDeriv.Symmetric` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/Envelope.lean: imports `Mathlib.Analysis.InnerProductSpace.Calculus` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Static/Envelope.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2942/3009] Replayed Fisher41.Heat.DensityFlow
+warning: Fisher41/Heat/DensityFlow.lean: imports `Mathlib.Analysis.Calculus.ContDiff.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/DensityFlow.lean: imports `Mathlib.Analysis.Calculus.ContDiff.WithLp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/DensityFlow.lean: imports `Mathlib.Analysis.Calculus.FDeriv.WithLp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/DensityFlow.lean: imports `Mathlib.Analysis.InnerProductSpace.Calculus` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/DensityFlow.lean: imports `Mathlib.Analysis.SpecialFunctions.ExpDeriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3262/3281] Replayed Fisher41.Heat.Limit
+warning: Fisher41/Heat/Limit.lean: imports `Mathlib.Analysis.Calculus.Deriv.Inv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/Limit.lean: imports `Mathlib.Analysis.Calculus.FDeriv.Measurable` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/Limit.lean: imports `Mathlib.Analysis.Convex.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/Limit.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/Limit.lean: imports `Mathlib.MeasureTheory.Integral.DominatedConvergence` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3264/3281] Replayed Fisher41.Heat.PointwiseAlgebra
+warning: Fisher41/Heat/PointwiseAlgebra.lean: imports `Mathlib.Algebra.BigOperators.Field` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/PointwiseAlgebra.lean: imports `Mathlib.Algebra.BigOperators.Group.Finset.Sigma` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/PointwiseAlgebra.lean: imports `Mathlib.Basic.Real.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/PointwiseAlgebra.lean: imports `Mathlib.Tactic.LinearCombination` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/PointwiseAlgebra.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3265/3281] Replayed Fisher41.Heat.Identities
+warning: Fisher41/Heat/Identities.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Deriv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/Identities.lean: imports `Mathlib.Analysis.Calculus.FDeriv.Symmetric` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/Identities.lean: imports `Mathlib.Analysis.Calculus.Deriv.Inv` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/Identities.lean: imports `Mathlib.Analysis.Calculus.Deriv.Pow` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/Identities.lean: imports `Mathlib.Analysis.Calculus.FDeriv.Pow` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/Identities.lean: imports `Mathlib.Analysis.Calculus.ContDiff.Operations` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/Identities.lean: imports `Mathlib.Tactic.Field` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/Identities.lean: imports `Mathlib.Tactic.FunProp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/Identities.lean: imports `Mathlib.Tactic.LinearCombination` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3266/3281] Replayed Fisher41.Heat.Derivatives
+warning: Fisher41/Heat/Derivatives.lean: imports `Mathlib.Analysis.Calculus.ParametricIntegral` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Heat/Derivatives.lean: imports `Mathlib.Analysis.Calculus.LineDeriv.IntegrationByParts` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3272/3281] Replayed Fisher41.Fixed.DBound
+warning: Fisher41/Fixed/DBound.lean: imports `Mathlib.MeasureTheory.Measure.Lebesgue.VolumeOfBalls` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/Fixed/DBound.lean: imports `Mathlib.Analysis.Real.Pi.Bounds` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [3276/3281] Replayed Fisher41.FC.Statement
+warning: Fisher41/FC/Statement.lean: imports `Mathlib.Analysis.InnerProductSpace.PiL2` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/FC/Statement.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/FC/Statement.lean: imports `Mathlib.Analysis.Calculus.FDeriv.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/FC/Statement.lean: imports `Mathlib.Analysis.Distribution.SchwartzSpace.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/FC/Statement.lean: imports `Mathlib.MeasureTheory.Integral.Bochner.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fisher41/FC/Statement.lean: imports `Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (3281 jobs).
+Exit code: 0 (8s)
+
+main_axioms: lake env lean scripts/Axioms.lean
+'Fisher41.paperTheorem1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Fisher41.pdfMain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Fisher41.fisherSecondDerivNeg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Fisher41.fisherNonconvex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Arxiv.«2605.18081».fisherInformationConvexity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Arxiv.«2605.18081».fisherInformationConvexity.variants.smooth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Exit code: 0 (69s)
+
+lean4web: lake env lean ./lean4web/Fisher41Lean4Web.lean
+"4.35.0-rc3"
+'Fisher41.paperTheorem1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Arxiv.«2605.18081».fisherInformationConvexity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Arxiv.«2605.18081».fisherInformationConvexity.variants.smooth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Exit code: 0 (448s)
+
+fc_statement: ~/.elan/toolchains/leanprover--lean4---v4.33.1/bin/lean -DautoImplicit=false -Dwarn.sorry=false -DwarningAsError=true -Dweak.linter.style.namespace=true -Dweak.linter.style.stubs=true -Dweak.linter.style.openClassical=true -Dweak.linter.style.ams_attribute=true -Dweak.linter.style.category_attribute=true -Dweak.linter.style.category_answer=true -Dweak.linter.style.category_docstring=true -Dweak.linter.style.conditional_formal_proof=true -Dweak.linter.style.moduleDocstring=true -Dweak.linter.style.latex_docstring=true -Dweak.linter.style.imports=true -Dweak.linter.style.existsImplication=true -R /var/folders/lg/85hqrvfn1mj7qg0rgt5nv24r0000gn/T/tmprr3nog34 /var/folders/lg/85hqrvfn1mj7qg0rgt5nv24r0000gn/T/tmprr3nog34/FisherInformationConvexity.lean
+Exit code: 0 (217s)
