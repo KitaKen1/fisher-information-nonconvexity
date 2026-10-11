@@ -87,7 +87,7 @@ Here $`\eta(v)=b(2-v)/(b(2-v)+b(v-1))`$ with $`b(a)=e^{-1/a}`$ for $`a>0`$ and $
 otherwise. For positive $`p`$, put
 
 ```math
-H_p=-\nabla^2\log p,\qquad K_p=\sum_{i,j,k}(\partial_kH_{ij})^2+2\operatorname{tr}(H_p^3),
+H_p=-\nabla^2\log p,\qquad K_p=\sum_{i,j,k}(\partial_kH_{ij})^2+2\mathrm{tr}(H_p^3),
 \qquad D(p)=\int pK_p .
 ```
 
@@ -129,7 +129,7 @@ with $`|B_1|=2^{21}\pi^{20}/41!!`$ and $`\pi>3`$
 
 ```math
 Z\,D(f)=\mathbb E\,(qK_q)(G_R)+\tfrac{6}{R^2}\,\mathbb E\,(q\,|H_q|^2)(G_R)
-+\tfrac{6}{R^4}\,\mathbb E\,(q\operatorname{tr}H_q)(G_R)+\tfrac{82}{R^6}\,Z ,
++\tfrac{6}{R^4}\,\mathbb E\,(q\mathrm{tr}H_q)(G_R)+\tfrac{82}{R^6}\,Z ,
 ```
 
 where $`G_R\sim\gamma_{R^2}`$ ([Envelope.lean](lean/Fisher41/Static/Envelope.lean)). For a
@@ -153,8 +153,8 @@ for $`\partial_t\rho=\tfrac12\Delta\rho`$ ([Identities.lean](lean/Fisher41/Heat/
 are
 
 ```math
-\partial_t\bigl(\rho|\nabla\log\rho|^2\bigr)=-\rho\,|\nabla^2\log\rho|^2+\operatorname{div}(\cdots),\qquad
-\partial_t\bigl(\rho\,|\nabla^2\log\rho|^2\bigr)=-\rho K_\rho+\operatorname{div}(\cdots).
+\partial_t\bigl(\rho|\nabla\log\rho|^2\bigr)=-\rho\,|\nabla^2\log\rho|^2+\mathrm{div}(\cdots),\qquad
+\partial_t\bigl(\rho\,|\nabla^2\log\rho|^2\bigr)=-\rho K_\rho+\mathrm{div}(\cdots).
 ```
 
 Differentiation under the integral sign and integration by parts then give $`I'=-Q`$ and
@@ -243,7 +243,7 @@ This formalization, mathematical exploration, proof development, and documentati
 by Kenta Kitamura with assistance from ChatGPT and OpenAI Codex using GPT-6 Astra and GPT-6.1 sol,
 and Claude Code using Claude Opus 5.5.
 
-## References
+## Sources
 
 - [ZFGW26] J. Zou, L. Fan, J. Gao and J. Wang,
   [A Hexagonal Counterexample to Log-Convexity of Fisher Information Along the Heat Flow](https://arxiv.org/abs/2605.18081),
@@ -281,8 +281,8 @@ The variant statement is the following.
 > $`\mathcal I[f]<\infty`$, the function $`I_f`$ is convex on $`(0,\infty)`$.
 
 Here $`H=-\nabla^2\log f`$, $`\mathcal I[f]=\int|\nabla\log f|^2f`$,
-$`\mathcal Q[f]=\int\operatorname{tr}(H^2)f`$ and
-$`\mathcal D[f]=\int(|\nabla H|^2+2\operatorname{tr}H^3)f`$.
+$`\mathcal Q[f]=\int\mathrm{tr}(H^2)f`$ and
+$`\mathcal D[f]=\int(|\nabla H|^2+2\mathrm{tr}H^3)f`$.
 
 The variant has no conditions on $`\mathcal Q[f]`$ and $`\mathcal D[f]`$, and it asks for
 smoothness instead of the Schwartz condition. So its conditions are weaker, and every density
